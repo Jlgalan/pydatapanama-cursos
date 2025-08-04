@@ -1,0 +1,22 @@
+name: pyda-py311
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pathlib
+  - python=3.11
+  - seaborn
+  - xlrd
+  - jupyter_client[version='<8']
+  - notebook
+  - pyzmq[version='<25']
+prefix: /opt/anaconda3/envs/pyda-py311
